@@ -1,0 +1,498 @@
+.headerCart{
+	
+}
+.headerCart .navbar-default{
+	background-color: #1f1f2e;
+}
+.headerCart .dropdown-toggle{
+	margin-right: 60px;
+	border-top: 5px solid rgba(0, 0, 0, 0);
+	border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+.headerCart .togCart{
+	margin-right:10px;
+	font-size: 20px;
+}
+.headerCart .dropdown:hover .dropdown-menu{
+	display: block;
+	z-index: 9999;
+	background-color: #1f1f2e !important;
+	border: 3px solid #f03;
+}
+.headerCart .dropdown-toggle:hover{
+	background-color: #fc0 !important;
+	border-top: 5px solid aqua;
+	color: #000 !important;
+	transition: 0.7s;
+}
+.headerCart .dropdown-toggle:focus{
+	color: aqua !important;
+	background-color: rgba(255,0, 0,0.5) !important;
+}
+.headerCart .menuCart{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right:10px !important;
+	width: 900px;
+	min-height:300px;
+	color: #f62;
+}
+.headerCart #CssImage{
+	width: 40px;
+	height: 50px !important;
+}
+.headerCart tbody tr td{
+	font-size: 20px;
+	padding-top: 15px;
+	font-weight: bold; 
+}
+.headerCart tbody tr:hover{
+	background-color: #fc0;
+	color: #000;
+	font-weight: bolder;
+}
+.headerCart .dropdown-menu.cartSP1{
+ 	width: 1100px ;
+ 	height: 450px;
+ 	padding-top: 30px;
+ 	padding-left: 100px;
+}
+ .headerCart .dropdown-menu.cartSP2{
+ 	width: 600px;
+ 	height: 450px;
+ 	padding-top: 30px;
+ 	padding-left: 50px;
+}
+ .headerCart .dropdown-menu.cartSP{
+ 	width: 300px;
+ 	height: 300px;
+ 	padding-top: 30px;
+ 	color: #fc0;
+ 	font-size: 18px;
+}
+.headerCart .dropdown-menu.cartSP li p{
+	line-height: 30px;
+	margin-left: 20px;
+}
+.headerCart .dropdown-menu.cartSP li:hover{
+	background-color: rgba(200, 10, 140, 0.4);
+	transition: 1.1s;
+}
+.headerCart .dropdown-menu.cartSP li:hover p{
+	margin-left: 20px;
+	color: aqua;
+	transition: 1.1s;
+}
+.headerCart .dropdown-menu, .headerCart .dropdown-menu:hover{
+	background-color: #27190c;
+	border: 3px solid aqua;
+	margin-right:60px;
+}
+/* xxxxxxxxxxxxxxxx */
+.headerCart button#ondeleteToCartShop{
+	border: 3px solid rgba(0, 0, 0, 0);
+	font-weight: bolder;
+}
+.headerCart button#ondeleteToCartShop:hover{
+	border: 3px solid #f00;
+	background-color: #3d3d29;
+	color: #f60;
+	box-shadow: 3px 3px 3px #000,-3px -3px 3px #f00;
+}
+/* xxxxxxxxxxxxxxx */
+/* ------------------item--------------- */
+.row.produc{
+	margin-top: -20px;
+	background-color: #003;
+	width: 102%;
+	height: 90px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+.row.produc button.btn-success{
+	float: left;
+	width: 145px;
+	height: 50px;
+	margin-right: 20px;
+	background-color: #fc0 !important;
+	color: #002;
+	font-size: 25px;
+	font-weight: bold;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+.row.produc button.btn-danger{
+	float: left;
+	width: 50px;
+	height: 50px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	border: 3px solid #f60;
+}
+.row.produc button.btn-danger p{
+	margin-left: -6px;
+}
+.row.produc button.btn-success:hover{
+	background-color: #ff99cc !important;
+	border: 3px solid #f02;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px #ff0,
+	-5px 5px 5px aqua,5px -5px 5px #ff0;
+	transition: 0.7s;
+}
+.row.produc button.btn-danger:hover{
+	background-color: #000;
+	color: #fff;
+	border-radius: 30px;
+	border: 3px solid #990099;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px #f00,
+	-5px 5px 5px aqua,5px -5px 5px #f00;
+	transition: 1.2s;
+}
+.row.produc input{
+	width: 12%;
+	float: left;
+	margin-left:200px;
+	margin-top: 2px;
+	border: 3px solid #f60;
+	border-radius: 5px;
+	height: 45px;
+	transition: 1.2s;
+}
+.row.produc input:focus{
+	width: 22%;
+	margin-left:70px;
+	border-radius: 20px;
+	border: 3px solid #f0f;
+	background-color: #010;
+	box-shadow: 3px 3px 3px #00f,-3px -3px 3px #f02,
+	-3px 3px 3px #00f,3px -3px 3px #f02;
+	color: #f60;
+	transition: 1.2s;
+}
+.row.produc button.btn-primary{
+	width: 50px;
+	height: 50px;
+	margin-top: -1px;
+	float: right;
+	border: 3px solid #f00;
+	font-size: 18px;
+}
+.row.produc button.btn-primary i{
+	margin-left: -5px;
+}
+.row.produc button.btn-primary:hover{
+	border: 3px solid #f02;
+	background-color: #3d3d29;
+	color: #f60;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px aqua,
+	-5px 5px 5px aqua,5px -5px 5px aqua;
+	color: #f60;
+	transition: 1s;
+}
+/* ============shop buy now======================== */
+.headerCart #btnBuyNow{
+	width: 150px !important;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+.headerCart #btnBuyNow:hover{
+	background-color: rgba(255, 0, 240, 0.5);
+	margin-left:0;
+	border: 3px solid aqua;
+}
+.headerCart #btnDele{
+	width: 150px !important;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-top: -70px;
+	color: #000;
+	font-weight: bolder;
+	border: 3px solid rgba(0, 0, 0, 0);
+	
+}
+.headerCart #btnDele:hover{
+	background-color: rgba(255, 0, 0,0.4);
+	color: aqua;
+	transition: 1s;
+	border: 3px solid aqua;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 1350px) {
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.row.produc button.btn-success{
+		width: 125px;
+		height: 45px;
+		margin-right: 15px;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.row.produc button.btn-danger{
+		width: 45px;
+		height: 45px;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.row.produc input{
+		margin-left:70px;
+		margin-top: 10px;
+		height: 40px;
+	}
+	.row.produc input:focus{
+		width: 25%;
+		margin-left:20px;
+	}
+	.row.produc button.btn-primary{
+		width: 40px;
+		height: 40px;
+		margin-top: 10px;
+		margin-right: 30px;
+		font-size: 18px;
+	}
+
+}
+@media only screen and (max-width: 1150px) {
+	.headerCart .dropdown-toggle{
+		margin-right: 40px;
+	}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.headerCart .menuCart{
+		margin-right:0px !important;
+		width: 650px;
+		min-height:300px;
+	}
+	.headerCart #CssImage{
+		width: 30px;
+		height: 40px !important;
+	}
+	.headerCart tbody tr td{
+		font-size: 13px;
+		padding-top: 15px;
+		font-weight: bold; 
+	}
+	.headerCart .dropdown-menu.cartSP1{
+	 	width: 900px ;
+	 	height: 350px;
+	 	padding-top: 10px;
+	 	padding-left: 50px;
+	 	font-size: 7px;
+	 	margin-right:-105px;
+	}
+	.headerCart .dropdown-menu.cartSP2{
+	 	margin-right:-190px;
+	}
+	.headerCart .dropdown-menu.cartSP{
+	 	margin-right:-60px;
+	}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.row.produc button.btn-success{
+		width: 100px;
+		height: 35px;
+		margin-right: 20px;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.row.produc button.btn-danger{
+		width: 40px;
+		height: 40px;
+		font-size: 14px;
+		margin-top: 7px;
+	}
+	.row.produc input{
+		margin-left:70px;
+		margin-top: 5px;
+		height: 40px;
+	}
+	.row.produc input:focus{
+		width: 22%;
+		margin-left:20px;
+	}
+	.row.produc button.btn-primary{
+		width: 40px;
+		height: 40px;
+		margin-top: 5px;
+		margin-right: 30px;
+		font-size: 18px;
+	}
+
+}/* @media only screen and (max-width: 1150px)  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 990px) {
+	.headerCart .dropdown-toggle{
+		margin-right: 30px;
+		font-size: 12px;
+	}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.headerCart .menuCart{
+		margin-right:0px !important;
+		width: 500px;
+		min-height:300px;
+	}
+	.headerCart #CssImage{
+		width: 30px;
+		height: 40px !important;
+	}
+	.headerCart tbody tr td{
+		font-size: 11px;
+		padding-top: 15px;
+		font-weight: bold; 
+	}
+	.headerCart .dropdown-menu.cartSP1{
+	 	width: 900px ;
+	 	height: 350px;
+	 	padding-top: 30px;
+	 	padding-left: 100px;
+	}
+	.headerCart .dropdown-menu.cartSP2{
+	 	width: 600px;
+	 	height: 450px;
+	 	padding-top: 30px;
+	 	padding-left: 50px;
+	}
+	.headerCart .dropdown-menu.cartSP{
+	 	width: 300px;
+	 	height: 300px;
+	 	padding-top: 30px;
+	 	color: #fc0;
+	 	font-size: 18px;
+	}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.row.produc button.btn-success{
+		width: 70px;
+		height: 30px;
+		margin-right: 10px;
+		font-size: 10px;
+		margin-top: 12px;
+	}
+	.row.produc button.btn-danger{
+		width: 33px;
+		height: 33px;
+		font-size: 11px;
+		margin-top: 10px;
+	}
+	.row.produc input{
+		margin-left:110px;
+		margin-top: 10px;
+		height: 33px;
+	}
+	.row.produc input:focus{
+		width: 22%;
+		margin-left:20px;
+	}
+	.row.produc button.btn-primary{
+		width: 33px;
+		height: 33px;
+		margin-top: 10px;
+		margin-right: 30px;
+		font-size: 12px;
+	}
+	
+}/* @media only screen and (max-width: 990px)  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 700px) {
+	
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	.row.produc{
+		padding-left: 50px;
+	}
+	.row.produc button.btn-success{
+		width: 50px;
+		height: 23px;
+		margin-right: 5px;
+		font-size: 5px;
+		margin-top: -5px;
+		padding-left: -50px !important;
+	}
+	.row.produc button.btn-danger{
+		width: 25px;
+		height: 25px;
+		font-size: 5px;
+		margin-top: -5px;
+	}
+	.row.produc input{
+		width: 30%;
+		margin-left:160px;
+		margin-top: 10px;
+		height: 22px;
+	}
+	.row.produc input:focus{
+		width: 70%;
+		margin-left:0px;
+	}
+	.row.produc button.btn-primary{
+		width: 27px;
+		height: 27px;
+		margin-top: 7px;
+		margin-right: 5px;
+		font-size: 6px;
+	}
+}/* @media only screen and (max-width: 600px)  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 400px) {
+	.row.produc{
+		padding-left: 50px;
+	}
+	.row.produc button.btn-success{
+		width: 40px;
+		height: 20px;
+		margin-right: 5px;
+		font-size: 4px;
+		margin-top: -5px;
+		padding-left: -60px !important;
+	}
+	.row.produc button.btn-danger{
+		width: 20px;
+		height: 20px;
+		font-size: 4px;
+		margin-top: -5px;
+	}
+	.row.produc input{
+		width: 30%;
+		margin-left:130px;
+		margin-top: 10px;
+		height: 22px;
+	}
+	.row.produc input:focus{
+		width: 70%;
+		margin-left:0px;
+	}
+	.row.produc button.btn-primary{
+		width: 27px;
+		height: 27px;
+		margin-top: 7px;
+		margin-right: 0px;
+		font-size: 6px;
+	}
+}/* @media only screen and (max-width: 400px) */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

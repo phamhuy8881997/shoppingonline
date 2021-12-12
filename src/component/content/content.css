@@ -1,0 +1,265 @@
+.Content1{
+	background-color: #2e2e1f;
+	height: 800px;
+	overflow-y: scroll;
+	padding-bottom: 200px;
+}
+/* =========croll======== */
+#style-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgba(100, 170, 100,0.6);
+}
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    /* background-color: #f00; */
+    background-image: linear-gradient(to top, red,orange,yellow,blue,indigo,violet);
+}
+/* ========================== */
+/* ==========productitem.js==================== */
+#cartAPI{
+	margin-top: 50px;
+	margin-bottom:20px;
+	/* height: 300px !important; */
+	text-align: center;
+}
+#cartAPI img{
+	width: 200px;
+	height: 210px !important;
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+#cartAPI .card.bg-primary{
+	width: 80%;
+	margin-left:10%;
+	padding-bottom: 20px;
+	border: 3px solid aqua;
+}
+#cartAPI .card.bg-primary:hover{
+	border: 3px solid #cc00cc;
+	background-color: #001f4d;
+	border-radius: 30px;
+	color: #fc1;
+	box-shadow: 5px 5px 10px #f00,-5px -5px 10px #00f,
+	-5px 5px 10px #f00,5px -5px 10px #00f;
+	transition: 1.3s;
+}
+#cartAPI .card.bg-primary:hover img{
+	border-radius: 30px;
+	border: 1px solid #f60;
+	opacity: 0.9;
+	transition: 1.3s;
+}
+#cartAPI .card.bg-primary p{
+	font-size: 15px;
+	/* line-height: 19px; */
+}
+#cartAPI .card.bg-primary .btn{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 90px;
+	font-weight: bold;
+	color: #000;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+#cartAPI .card.bg-primary .btn:hover{
+	border: 3px solid #f01;
+	background-color: #1f1f14;
+	color: #f60 !important;
+	border-radius: 20px;
+	transition: 1.2s;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px aqua,
+	-5px 5px 5px aqua,5px -5px 5px aqua;
+}
+#cartAPI .card.bg-primary .btn:hover i{
+	color: #f60 !important;
+}
+img#sale-product1{
+	opacity: 0;
+}
+#cartAPI .card.bg-primary:hover img#sale-product1{
+	opacity: 0;
+}
+img#sale-product,img#sale-product1{
+	width: 100px;
+	height: 100px !important;
+	border: none !important	;
+	display: inline;
+	-webkit-transform: rotate(-15deg);
+	   -moz-transform: rotate(-15deg);
+	    -ms-transform: rotate(-15deg);
+	     -o-transform: rotate(-15deg);
+	        transform: rotate(-15deg);
+	margin-top: -600px;
+	margin-left: -150px;
+}
+img#sale-product:hover{
+	border: none !important	;
+}
+/* ==========productitem.js==================== */
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 1350px) {}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 1150px) {
+	#cartAPI .card.bg-primary p{
+		font-size: 12px;
+		line-height: 8px !important;
+	}
+	img#sale-product,img#sale-product1{
+		margin-top: -550px;
+		margin-left: -150px;
+	}
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 990px) {
+	
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 750px) {
+	.Content1{
+		height: 500px;
+		padding-bottom: 100px;
+	}
+	#cartAPI{
+		margin-top: 20px;
+		margin-bottom:20px;
+		height: 200px;
+		text-align: center;
+		font-size: 5px;
+	}
+	#cartAPI img{
+		width: 70px;
+		height: 80px !important;
+		margin-top: 20px;
+		margin-bottom:10px;
+	}
+	#cartAPI .card.bg-primary{
+		width: 100%;
+		margin-left:5%;
+		padding-bottom: 0px;
+		border: 3px solid aqua;
+	}
+	#cartAPI .card.bg-primary p{
+		font-size: 10px;
+		line-height: 2px !important;
+	}
+	#cartAPI .card.bg-primary .btn{
+		margin-bottom: 12px;
+		width: 60px;
+		font-size: 8px;
+		font-weight: bold;
+		color: #000;
+		border: 3px solid rgba(0, 0, 0, 0);
+	}
+	#cartAPI .card.bg-primary .btn.btn-danger{
+		width: 40px;
+	}
+	#cartAPI .card.bg-primary .btn.btn-danger i{
+		font-size: 10px !important ;
+	}
+	img#sale-product,img#sale-product1{
+		width: 60px;
+		height: 60px !important;
+		margin-top: -300px;
+		margin-left: -100px;
+	}
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 400px) {
+	.Content1{
+		height: 500px;
+		padding-bottom: 100px;
+	}
+	#cartAPI{
+		margin-top: 20px;
+		margin-bottom:20px;
+		height: 200px;
+		text-align: center;
+		font-size: 5px;
+	}
+	#cartAPI img{
+		width: 70px;
+		height: 77px !important;
+		margin-top: 10px;
+		margin-bottom:10px;
+	}
+	#cartAPI .card.bg-primary{
+		width: 100%;
+		margin-left:5%;
+		padding-bottom: 0px;
+		border: 3px solid aqua;
+	}
+	#cartAPI .card.bg-primary p{
+		font-size: 10px;
+		line-height: 10px !important;
+	}
+	#cartAPI .card.bg-primary .btn{
+		margin-bottom: 12px;
+		width: 60px;
+		font-size: 8px;
+		font-weight: bold;
+		color: #000;
+		border: 3px solid rgba(0, 0, 0, 0);
+	}
+	#cartAPI .card.bg-primary .btn.btn-danger{
+		width: 30px;
+	}
+	#cartAPI .card.bg-primary .btn.btn-danger i{
+		font-size: 8px !important ;
+		margin-left: -5px;
+	}
+	img#sale-product,img#sale-product1{
+		width: 60px;
+		height: 60px !important;
+		margin-top: -300px;
+		margin-left: -80px;
+	}
+}/* @media only screen and (max-width: 400px) */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 370px) {
+	#cartAPI{
+		margin-top: 20px;
+		margin-bottom:40px;
+		height: 200px;
+		text-align: center;
+	}
+	#cartAPI .card.bg-primary .btn.btn-danger{
+		width: 60px;
+	}
+	img#sale-product,img#sale-product1{
+		width: 50px;
+		height: 50px !important;
+		margin-top: -390px;
+		margin-left: -80px;
+	}
+}/* @media only screen and (max-width: 370px) */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

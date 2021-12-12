@@ -1,0 +1,81 @@
+.notify-1{
+	background-color: #00001a;
+	color: #f60;
+	padding: 40px 50px;
+	text-align: center;
+}
+.notify-1 tbody tr{
+	font-weight: bold;
+}
+.notify-1 tbody tr img{
+	width: 50px;
+	height: 40px !important;
+}
+.notify-1 tbody tr button:hover{
+	background-color: #000;
+	color: #f60;
+}
+.notify-1 tbody tr:hover{
+	background-color: #fc0;
+	color: #000;
+}
+.notify-1-1 input{
+	width: 25%;
+	margin-left:37.5%;
+	border: 3px solid #000;
+	margin-top:10px;
+	margin-bottom:15px;
+	transition: 1.3s;
+}
+.notify-1-1 input:focus{
+	width: 60%;
+	margin-left:20%;
+	border: 3px solid #9900cc;
+	transition: 1.3s;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px aqua,
+	-5px 5px 5px aqua,5px -5px 5px aqua;
+	background-color: #000;
+	color: #fc0;
+}
+.notify-1-1 button{
+	margin: 0px 20px;
+	font-weight: bold;
+}
+.notify-1-1 button:hover{
+	background-color: #6fc;
+	color: #000;
+	transition: 1s;
+}
+/* ======================================================= */
+.notify-2 input{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	transition: 1.5s;
+}
+.notify-2 input:focus{
+	width: 90%;
+	margin-left: 5%;
+	border: 3px solid #fc0;
+	background-color: #002;
+	color: #f60;
+	transition: 1.5s;
+	border-radius: 20px;
+	box-shadow: 5px 5px 7px red,-5px -5px 7px #90c,
+	-5px 5px 7px red,5px -5px 7px #90c;
+}
+.notify-2 button{
+	border: 3px solid rgba(0, 0, 0, 0);
+	margin-top: 35px;
+	font-weight: bold;
+}
+.notify-2 button:hover{
+	background-color: #000;
+	color: #fc0;
+	border: 3px solid #90c;
+	transition: 0.6s;
+	box-shadow: 5px 5px 5px aqua,-5px -5px 5px aqua,
+	-5px 5px 5px aqua,5px -5px 5px aqua;
+}

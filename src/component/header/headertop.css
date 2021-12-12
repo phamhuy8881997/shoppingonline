@@ -1,0 +1,154 @@
+.header-top {
+	background-color: #002 !important;
+	height: 100px;
+	margin-bottom: 0px;
+}
+.header-top ul li{
+	list-style-type: none;
+}
+.header-top .header-top-name{
+	font-size: 3.3em;
+	color: #f60;
+	margin-top: 7px;
+	text-shadow: 3px 3px 7px aqua;
+	font-style: italic;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 12px;
+	font-weight: bolder;
+	animation-name: name-header-top;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes name-header-top {
+  0% {color: #f60;}
+  10% {color: #f01;}
+  20% {color: #ff33cc;}
+  30% {color: #9900cc;}
+  40% {color: #3333cc;}
+  50% {color: #0099ff;}
+  60% {color: #00ffff;}
+  70% {color: #66ff66;}
+  80% {color: #ccff33;}
+  90% {color: #ffcc00;}
+  100% {color: #f60;}
+}
+.header-top-name .fa-rebel{
+	margin-right:20px;
+}
+
+.header-top .dropdown{
+	float: right;
+	margin-top: -40px;
+}
+
+.header-top .dropdown a{
+	font-size: 20px;
+	margin-top:15px;
+	color: #fc0;
+}
+.header-top .dropdown a.dropdown-toggle:hover{
+	color: aqua !important;
+}
+.header-top .dropdown:hover .dropdown-menu{
+	display: inline-block;
+}
+.header-top .dropdown-menu{
+	width: 200px;
+	height: 300px;
+	border: 2px solid #f00;
+	margin-top: 39px !important;
+	margin-left: -140px;
+}
+/* ===============login======================= */
+.show-user{
+	font-size: 1.2em;
+	color: #fc0;
+}
+.show-user img{
+	width: 4.5em;
+	height: 4.5em !important;
+	border-radius: 2.5em;
+	border: 3px solid aqua;
+	margin-bottom:20px;
+}
+.show-user button {
+	margin-top: 10px;
+	border: 3px solid aqua;
+	background-color: #000;
+	color: #fc0;
+	width: 130px;
+	height: 40px;
+}
+.show-user button:hover{
+	background-color: aqua;
+	border: 3px solid #fc0;
+	color: #000;
+	box-shadow: 5px 5px 5px rgba(250, 0, 0, 0.8);
+	transition: 1s;
+}
+.show-user1 i{
+	font-size: 2.3em;
+	color: aqua;
+	margin-bottom:20px;
+}
+.show-user1 button {
+	border: 3px solid aqua;
+	background-color: #000;
+	color: #fc0;
+}
+.show-user1 button:hover {
+	border: 3px solid #f00;
+	background-color: aqua;
+	color: #000;
+}
+.header-top a#tra-cuu{
+	border: 3px solid aqua;
+	margin-top:20px;
+	color: #fc0;
+}
+.header-top a#tra-cuu:hover{
+	margin-left:0px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 950px) {
+	.header-top {
+	height: 90px;
+}
+
+.header-top .header-top-name{
+	font-size: 2.5em;
+	letter-spacing: 10px;
+	margin-top: 25px;
+}
+.header-top-name .fa-rebel{
+	margin-right:10px;
+}
+
+}/* @media only screen and (max-width: 950px) */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 600px) {
+	.header-top .header-top-name{
+		font-size: 2em;
+		letter-spacing: 6px;
+		margin-top: 25px;
+	}
+	.header-top-name .fa-rebel{
+		margin-right:0px;
+	}
+	
+}/* @media only screen and (max-width: 600px) */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */

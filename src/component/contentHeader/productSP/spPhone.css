@@ -1,0 +1,67 @@
+.itemCartH ul{
+	color: #f60;
+	font-size: 22px;
+	font-weight: bolder;
+}
+.itemCartH ul:hover{
+	color: aqua;
+}
+.itemCartH ul li{
+	font-size: 14px;
+	color: #f0f;
+}
+.itemCartH ul li a {
+	line-height: 27px !important;
+	font-size: 14px;
+}
+.itemCartH ul li a:hover {
+	margin-left: 10px !important;
+	background-color: #fc1;
+	color: #000 !important;
+	border-radius: 5px;
+}
+.itemCartH ul li:hover{
+	color: #fc0;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 1150px) {
+	.itemCartH ul{
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.itemCartH ul li{
+		font-size: 10px;
+	}
+	.itemCartH ul li a {
+		line-height: 20px !important;
+		font-size: 10px;
+	}
+	.itemCartH ul li a:hover {
+		margin-left: 0px !important;
+	}
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx media query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width: 600px) {
+	.itemCartH ul{
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.itemCartH ul li{
+		font-size: 7px;
+	}
+	.itemCartH ul li a {
+		line-height: 24px !important;
+		font-size: 7px;
+	}
+	.itemCartH ul li a:hover {
+		margin-left: 0px !important;
+	}
+}

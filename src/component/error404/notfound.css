@@ -1,0 +1,25 @@
+.notfound1{
+	height: 600px;
+	background-color: #4d4d33;
+	text-align: center;
+	padding-top: 150px;
+}
+.notfound1 h1{
+	font-size: 100px;
+	color: #f60;
+	margin-bottom:100px;
+}
+.notfound1 h1:hover{
+	color: aqua;
+}
+.notfound1 p i{
+	font-size: 80px;
+	color: #f02;
+	margin: 0 150px;
+}
+.notfound1 p i:hover{
+	color: #4d004d !important;
+}
+.notfound1 p i.fa-user-secret{
+	color: aqua ;
+}
